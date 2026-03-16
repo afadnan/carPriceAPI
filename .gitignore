@@ -1,3 +1,5 @@
 .env
 venvCarApi
 data
+app/car-details.csv
+app/models/model.joblib

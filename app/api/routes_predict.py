@@ -6,6 +6,7 @@ from app.services.model_service import predict_car_price
 router = APIRouter()
 
 class CarFeatues(BaseModel):
+    
     company: str
     year: int
     owner: str
