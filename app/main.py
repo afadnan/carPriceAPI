@@ -5,6 +5,7 @@ from app.middleware.logging_middleware import LoggingMiddleware
 from app.core.exceptions import register_exception_handlers
 
 
+
 app = FastAPI(title='Car Price Prediction API')
 
 #link middleware
