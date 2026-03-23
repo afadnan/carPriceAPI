@@ -1,5 +1,5 @@
 import logging
-from starlette.middleware.base import BseHTTPMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
 
 
 class LoggingMiddleware(BaseHTTPMiddleware):
